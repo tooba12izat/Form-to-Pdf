@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { Margin, usePDF } from 'react-to-pdf';
 
 const ApplicationDivorce8A = () => {
@@ -295,8 +294,7 @@ const ApplicationDivorce8A = () => {
 
     return (
         <div>
-            <div className="pdf-form pdf-form-13b" ref={targetRef}>
-                {/* <div className="pdf-form pdf-form-13b" style={{ backgroundColor: '#fff' }} ref={targetRef}> */}
+            <div className="pdf-form pdf-form-13b" style={{ backgroundColor: '#fff' }} ref={targetRef}>
                 {/* Form Name */}
                 <div className="row text-center mb-4">
                     <div className="col-12">
@@ -514,7 +512,7 @@ const ApplicationDivorce8A = () => {
                         <p className="paragraph">
                             <span className="fw-bold">YOU SHOULD GET LEGAL ADVICE ABOUT THIS CASE RIGHT AWAY.</span>
                             If you cannot afford a lawyer, you may be able to get help from your local Legal Aid Ontario office.
-                            <Link to={{ pathname: "https://www.legalaid.on.ca/" }} target="_blank" className="fst-italic">(Go to www.legalaid.on.ca/.)</Link>
+                            {/* <Link to={{ pathname: "https://www.legalaid.on.ca/" }} target="_blank" className="fst-italic">(Go to www.legalaid.on.ca/.)</Link> */}
                         </p>
 
                     </div>

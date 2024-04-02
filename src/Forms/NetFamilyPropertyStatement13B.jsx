@@ -398,8 +398,7 @@ const NetFamilyPropertyStatement13B = () => {
 
     return (
         <div>
-            <div className="pdf-form pdf-form-13b" ref={targetRef} >
-                {/* <div className="pdf-form pdf-form-13b" ref={targetRef} style={{ backgroundColor: '#fff' }}> */}
+            <div className="pdf-form pdf-form-13b" ref={targetRef} style={{ backgroundColor: '#fff' }}>
                 {/* Form Name */}
                 <div className="row text-center mb-4">
                     <div className="col-12">

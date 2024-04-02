@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { Margin, usePDF } from 'react-to-pdf';
 
-
 const FinancialStatement13 = () => {
     const { toPDF, targetRef } = usePDF({
         method: "save",
@@ -487,8 +486,7 @@ const FinancialStatement13 = () => {
 
     return (
         <div>
-            <div className="pdf-form pdf-form-13b" ref={targetRef} >
-                {/* <div className="pdf-form pdf-form-13b" ref={targetRef} style={{ backgroundColor: '#fff' }}> */}
+            <div className="pdf-form pdf-form-13b" ref={targetRef} style={{ backgroundColor: '#fff' }}>
                 {/* Form Name */}
                 <div className="row text-center mb-4" id="page1">
                     <div className="col-12">
