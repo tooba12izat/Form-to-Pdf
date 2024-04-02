@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { Link, Routes } from 'react-router-dom';
 
 
-function Home() {
+function Navbar() {
     return (
-
-
         <div>
             <nav>
                 <ul>
@@ -33,4 +30,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Navbar;
