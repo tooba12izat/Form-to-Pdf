@@ -12,10 +12,11 @@ import Navbar from "./Navbar"
 function App() {
   return (
     <>
-      <Navbar />
+
 
       <Routes>
         <Route path="/CertificateOfFinancialDisclosure13A" element={<CertificateOfFinancialDisclosure13A />} />
+        <Route path="/" element={<Navbar />} />
         <Route path="/NetFamilyPropertyStatement13B" element={<NetFamilyPropertyStatement13B />} />
         <Route path="/FinancialStatement131" element={<FinancialStatement131 />} />
         <Route path="/ApplicationDivorce8A" element={<ApplicationDivorce8A />} />
